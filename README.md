@@ -8,7 +8,7 @@ This class converts a input letters into a line of ASCII graphics letters.
 <br />
 <br />
 ### PolishCalc
-PolishCalc uses Reverse Polish notation to get an expression as a string and calc it.
+PolishCalc uses Reverse Polish Notation to get an expression as a string and calc it.
 <br /> 
 <br />
 <br />
