@@ -14,6 +14,11 @@ PolishCalc uses Reverse Polish Notation to get an expression as a string and cal
 <br />
 ### WebParser
 WebParser uses jsoup to parse url, go through some pages and download pictures from there.
+<br /> 
+<br />
+<br />
+### WebGraphBuilderEasy
+This class parses url to find dependencies and builds Graphviz .dot file. Then it tries to make a picture from .dot. Dependencies are .css and .js files. Works nice on Linux.
 <br />
 <br />
 <br />
@@ -23,4 +28,5 @@ Modify the code and implement into your project. You may run this stuff "as is" 
 ASCIItoStr.convert();
 PolishCalc.calc();
 WebParser.parse();
+WebGraphBuilderEasy.build("Your URL");
 ```
